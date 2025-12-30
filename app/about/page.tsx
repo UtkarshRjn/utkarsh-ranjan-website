@@ -49,10 +49,25 @@ export default function AboutPage() {
         <h2 className="font-serif text-xl font-semibold mb-4">
           What I Do
         </h2>
+        <p className="text-muted leading-relaxed mb-4">
+          I work as a founding engineer at{" "}
+          <a
+            href="https://socratic.co"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            Socratic
+          </a>
+          , a seed-stage startup working on ERP data migration. I focus on
+          building elegant solutions to complex problems, writing clean,
+          maintainable code, and creating user experiences that people love.
+        </p>
         <p className="text-muted leading-relaxed">
-          I work as a software engineer, focusing on building elegant solutions
-          to complex problems. I believe in writing clean, maintainable code and
-          creating user experiences that people love.
+          I graduated from IIT Bombay with a degree in Computer Science and
+          Engineering (Honors). During my time there, I pursued research
+          internships across the globe—at NTU Singapore, Kitakyushu Institute of
+          Technology (Japan), and LaBRI-INRIA (France).
         </p>
       </section>
 
