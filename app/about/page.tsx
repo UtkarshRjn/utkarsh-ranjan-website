@@ -90,10 +90,6 @@ export default function AboutPage() {
           </li>
           <li className="flex items-center gap-2">
             <span className="text-accent">&#8226;</span>
-            Open Source Development
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-accent">&#8226;</span>
             Technical Writing
           </li>
           <li className="flex items-center gap-2">
