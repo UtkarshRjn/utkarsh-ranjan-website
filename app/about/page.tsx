@@ -36,10 +36,10 @@ export default function AboutPage() {
           <p className="text-muted leading-relaxed">
             I&apos;m passionate about technology, software engineering, and
             building things that make a difference. When I&apos;m not coding,
-            you can find me reading (mostly research papers, articles, or
-            non-fiction), exploring new ideas. On weekends I spend time with my
-            friends playing tennis or sometimes create trouble for my neighbours
-            while I learn a new song on the Indian classical flute.
+            you&apos;ll find me reading (mostly research papers, articles, or
+            non-fiction) and exploring new ideas. Weekends are for tennis with
+            friends, and occasionally torturing my neighbours as I practice the
+            Indian classical flute.
           </p>
         </div>
       </div>
