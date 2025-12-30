@@ -59,9 +59,17 @@ export default function AboutPage() {
           >
             Socratic
           </a>
-          , a seed-stage startup working on ERP data migration. I focus on
-          building elegant solutions to complex problems, writing clean,
-          maintainable code, and creating user experiences that people love.
+          , a seed-stage startup working on ERP data migration. Before this, I
+          was at{" "}
+          <a
+            href="https://stripe.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            Stripe
+          </a>
+          , working in their Revenue and Financial Automation org.
         </p>
         <p className="text-muted leading-relaxed">
           I graduated from IIT Bombay with a degree in Computer Science and
