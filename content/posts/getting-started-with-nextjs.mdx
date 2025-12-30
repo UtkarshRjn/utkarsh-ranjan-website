@@ -1,0 +1,71 @@
+---
+title: "Getting Started with Next.js 14"
+date: "2024-12-28"
+excerpt: "A comprehensive guide to building modern web applications with Next.js 14 and the App Router."
+tags: ["nextjs", "react", "tutorial"]
+---
+
+Next.js has become one of the most popular frameworks for building React applications. With the introduction of version 14 and the App Router, it's more powerful than ever.
+
+## Why Next.js?
+
+Next.js provides several benefits out of the box:
+
+1. **Server-Side Rendering (SSR)**: Improved SEO and initial page load performance
+2. **Static Site Generation (SSG)**: Pre-render pages at build time for maximum performance
+3. **API Routes**: Build your backend directly in your Next.js project
+4. **File-based Routing**: Intuitive routing based on your file structure
+5. **Built-in Optimizations**: Automatic image optimization, code splitting, and more
+
+## Setting Up Your First Project
+
+Getting started is straightforward:
+
+```bash
+npx create-next-app@latest my-app
+cd my-app
+npm run dev
+```
+
+This will scaffold a new Next.js project with all the default configurations.
+
+## Understanding the App Router
+
+The App Router in Next.js 14 uses a new file-system based routing mechanism. Here's how it works:
+
+```
+app/
+├── layout.tsx      # Root layout
+├── page.tsx        # Home page (/)
+├── about/
+│   └── page.tsx    # About page (/about)
+└── blog/
+    ├── page.tsx    # Blog listing (/blog)
+    └── [slug]/
+        └── page.tsx # Dynamic blog post (/blog/[slug])
+```
+
+## Server and Client Components
+
+One of the most powerful features of Next.js 14 is the ability to use both Server and Client Components:
+
+```tsx
+// Server Component (default)
+async function ServerComponent() {
+  const data = await fetchData();
+  return <div>{data}</div>;
+}
+
+// Client Component
+"use client";
+function ClientComponent() {
+  const [count, setCount] = useState(0);
+  return <button onClick={() => setCount(count + 1)}>{count}</button>;
+}
+```
+
+## Conclusion
+
+Next.js 14 is a fantastic framework for building modern web applications. The App Router provides a more intuitive way to structure your application, and the combination of Server and Client Components gives you fine-grained control over your application's performance.
+
+In future posts, I'll dive deeper into specific features and patterns. Stay tuned!
