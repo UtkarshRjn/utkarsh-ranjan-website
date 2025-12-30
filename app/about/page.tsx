@@ -83,20 +83,7 @@ export default function AboutPage() {
         <h2 className="font-serif text-xl font-semibold mb-4">
           Interests
         </h2>
-        <ul className="space-y-2 text-muted">
-          <li className="flex items-center gap-2">
-            <span className="text-accent">&#8226;</span>
-            Software Architecture & System Design
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-accent">&#8226;</span>
-            Technical Writing
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-accent">&#8226;</span>
-            Continuous Learning
-          </li>
-        </ul>
+        <p className="text-muted italic">loading....</p>
       </section>
 
       <section className="mb-12">
