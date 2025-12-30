@@ -97,7 +97,7 @@ export default function AboutPage() {
 
         <div className="flex flex-wrap gap-4">
           <a
-            href="https://twitter.com"
+            href="https://x.com/utkarshran7092"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 rounded-lg border border-border hover:border-accent hover:text-accent transition-colors"
@@ -109,7 +109,7 @@ export default function AboutPage() {
           </a>
 
           <a
-            href="https://github.com"
+            href="https://github.com/UtkarshRjn"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 rounded-lg border border-border hover:border-accent hover:text-accent transition-colors"
@@ -121,7 +121,7 @@ export default function AboutPage() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/utkarsh-ranjan-3b49091b9"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 rounded-lg border border-border hover:border-accent hover:text-accent transition-colors"
