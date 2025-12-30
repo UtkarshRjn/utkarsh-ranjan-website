@@ -65,9 +65,9 @@ export default function AboutPage() {
         </p>
         <p className="text-muted leading-relaxed">
           I graduated from IIT Bombay with a degree in Computer Science and
-          Engineering (Honors). During my time there, I pursued research
-          internships across the globe—at NTU Singapore, Kitakyushu Institute of
-          Technology (Japan), and LaBRI-INRIA (France).
+          Engineering (Honors). During my time there, I completed research
+          internships across the globe — at NTU Singapore, the Kitakyushu
+          Institute of Technology in Japan, and LaBRI–INRIA in France.
         </p>
       </section>
 
