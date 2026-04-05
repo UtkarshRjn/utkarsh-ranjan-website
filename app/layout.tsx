@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     template: "%s | Utkarsh Ranjan",
   },
   description: "Personal blog and writings by Utkarsh Ranjan",
+  alternates: {
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
+  },
   openGraph: {
     title: "Utkarsh Ranjan",
     description: "Personal blog and writings by Utkarsh Ranjan",
