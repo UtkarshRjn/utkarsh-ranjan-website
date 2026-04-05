@@ -17,7 +17,7 @@ export default function ResumePage() {
         <p className="text-muted">Software Engineer</p>
         <div className="flex items-center justify-center gap-4 mt-4 text-sm text-muted">
           <a
-            href="mailto:hello@utkarsh-ranjan.com"
+            href="mailto:utkarsh13ranjan@gmail.com"
             className="hover:text-accent transition-colors"
           >
             hello@utkarsh-ranjan.com
