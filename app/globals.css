@@ -138,6 +138,38 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2rem 0;
 }
 
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.prose th, .prose td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.prose th {
+  background: var(--border);
+  font-weight: 600;
+}
+
+.prose .footnotes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.prose sup a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
