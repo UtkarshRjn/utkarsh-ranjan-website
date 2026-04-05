@@ -164,6 +164,16 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--muted);
 }
 
+.prose .footnotes #footnote-label {
+  font-size: 0;
+  color: var(--accent);
+}
+
+.prose .footnotes #footnote-label::after {
+  content: "References";
+  font-size: 1.5rem;
+}
+
 .prose sup a {
   color: var(--accent);
   text-decoration: none;
